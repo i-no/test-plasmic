@@ -1,0 +1,19 @@
+{
+  "props": [
+    {
+      "name": "HEADING",
+      "type": "color",
+      "value": "#04D093",
+      "category": "color",
+      "meta": {
+        "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+        "id": "BFUtVeVrp"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

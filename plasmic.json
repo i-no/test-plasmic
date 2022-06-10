@@ -1,0 +1,225 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "szjgMQpPpxhmkjnaBvZQJG",
+      "projectApiToken": "xBIsrWHdWZ9kVgFEGUt29LOZPWfm0XidYqRHqPhQXsEjDHevjIbp44nEYMIZ46YOoxrN8anfXjreTkDtFjTA",
+      "projectName": "react-parallax-tilt",
+      "version": "1.0.4",
+      "cssFilePath": "plasmic/react_parallax_tilt/plasmic_react_parallax_tilt.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "PfY466VIuq",
+          "name": "Tilt",
+          "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
+        }
+      ]
+    },
+    {
+      "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+      "projectApiToken": "fA9aXK9nwzxJ2XORF365yXc45phceIiFh58SfE0X9vkVTAPHOxAHRMnWmfVHrXU96A811Dx9NiWnGM67gGQ",
+      "projectName": "STA-Draghi",
+      "version": "latest",
+      "cssFilePath": "plasmic/sta_draghi/plasmic_sta_draghi.module.css",
+      "components": [
+        {
+          "id": "daVRe48Vf8mo",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "OWFGQTuz6D",
+          "name": "StaPersonals",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicStaPersonals.jsx",
+          "importSpec": {
+            "modulePath": "StaPersonals.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicStaPersonals.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xiRghhzFUA",
+          "name": "StaImageStory",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicStaImageStory.jsx",
+          "importSpec": {
+            "modulePath": "StaImageStory.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicStaImageStory.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PghwoN5xA5",
+          "name": "Page2",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicPage2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/page-2.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicPage2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "XjTg1AH6yF",
+          "name": "Demo",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicDemo.jsx",
+          "importSpec": {
+            "modulePath": "Demo.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicDemo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dOFxKjzAm8",
+          "name": "OhMyLord",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicOhMyLord.jsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicOhMyLord.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "seR7cldA3n",
+          "name": "Demo1",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicDemo1.jsx",
+          "importSpec": {
+            "modulePath": "../pages/demo-1.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicDemo1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ExWEgqqwZC",
+          "name": "Demo2",
+          "type": "managed",
+          "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+          "renderModuleFilePath": "plasmic/sta_draghi/PlasmicDemo2.jsx",
+          "importSpec": {
+            "modulePath": "Demo2.jsx"
+          },
+          "cssFilePath": "plasmic/sta_draghi/PlasmicDemo2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "L_f-JVKp3",
+          "name": "image",
+          "filePath": "../public/plasmic/sta_draghi/images/image.png"
+        },
+        {
+          "id": "sQo9Q8TXD",
+          "name": "image 2",
+          "filePath": "../public/plasmic/sta_draghi/images/image2.png"
+        },
+        {
+          "id": "k1tOskD8i",
+          "name": "image 3",
+          "filePath": "../public/plasmic/sta_draghi/images/image3.png"
+        },
+        {
+          "id": "tFDkjJkfs",
+          "name": "image 4",
+          "filePath": "../public/plasmic/sta_draghi/images/image4.png"
+        },
+        {
+          "id": "l2G1i1BLM",
+          "name": "image 5",
+          "filePath": "../public/plasmic/sta_draghi/images/image5.png"
+        },
+        {
+          "id": "O8j5AMhFv",
+          "name": "image 6",
+          "filePath": "../public/plasmic/sta_draghi/images/image6.png"
+        },
+        {
+          "id": "VFd4yZRuY",
+          "name": "image 7",
+          "filePath": "../public/plasmic/sta_draghi/images/image7.png"
+        },
+        {
+          "id": "yM6Vvuvrq",
+          "name": "844DA0EB-0892-48CF-A13E-3FC528EB2308.jpg",
+          "filePath": "../public/plasmic/sta_draghi/images/_844Da0Eb089248CfA13E3Fc528Eb2308Jpg.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "ckLLdnw4lO",
+        "name": "Screen",
+        "projectId": "szjgMQpPpxhmkjnaBvZQJG",
+        "contextFilePath": "plasmic/react_parallax_tilt/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "77XwrmqHKCl8i",
+        "name": "Screen",
+        "projectId": "uGTKGHAJVMXm8ZgFsPiEnc",
+        "contextFilePath": "plasmic/sta_draghi/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.181",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.181/dist/plasmic.schema.json"
+}
